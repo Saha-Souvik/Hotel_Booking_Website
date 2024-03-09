@@ -1,0 +1,97 @@
+.logo {
+  color: rgb(17, 35, 90);
+}
+
+.head {
+  color: red;
+  text-shadow: 2px 2px 5px gray;
+}
+
+.first {
+  color: rgb(17, 35, 90);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.sec {
+  color: red;
+}
+
+.custom-background {
+
+  background-image: url('../images/bg-1.jpg');
+}
+
+.admin {
+
+  background-image: url('../images/bg-2.jpg');
+}
+
+.home {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+.book {
+  box-shadow: rgba(245, 56, 93, 0.4) -5px 5px, rgba(245, 56, 93, 0.3) -10px 10px, rgba(245, 56, 93, 0.2) -15px 15px, rgba(245, 56, 93, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.header {
+  background: linear-gradient(300deg, #E2F6CA, #CDF5FD, #C3FF99);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.footer {
+  background: linear-gradient(300deg, #092635, #1B4242, #060047);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 50% 0%;
+  }
+
+  50% {
+    background-position: 50% 100%;
+  }
+
+  100% {
+    background-position: 50% 0%;
+  }
+}
+
+.sidebar {
+  background: linear-gradient(300deg, #092635, #1B4242, #060047);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 50% 0%;
+  }
+
+  50% {
+    background-position: 50% 100%;
+  }
+
+  100% {
+    background-position: 50% 0%;
+  }
+}

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"],input[type="password"],input[type="email"],textarea,input[type="number"],input[type="tel"] {
+    background-color:rgb(226, 246, 202);
+    @apply w-full border my-2 py-2 px-3 rounded-2xl;
+}
+button{
+    @apply bg-gray-300;
+}
+button.primary{
+    background-color: #F5385D;
+    @apply bg-primary p-2 w-full text-white rounded-2xl;
+}
+
+.toastBody{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:small;
+}
